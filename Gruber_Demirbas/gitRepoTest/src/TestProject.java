@@ -8,8 +8,13 @@ public class TestProject {
         System.out.println("Member 2 Text");
     }
 
+	public int answerToEverything() {
+	return 42;
+	}
+
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello World, how are you today!");
     }
+	thisIsANewMethod();
     
 }
